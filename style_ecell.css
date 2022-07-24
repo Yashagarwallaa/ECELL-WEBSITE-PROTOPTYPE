@@ -1,0 +1,300 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alata&family=Caveat:wght@400;500&family=Passion+One&family=Permanent+Marker&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Kanit&family=Luckiest+Guy&display=swap);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+.topp{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75vw 4vw;
+    backface-visibility: hidden;
+    top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: whitesmoke;
+    transition: all 0.3s ease 0s;
+    position: sticky;
+}
+
+.links_nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px; 
+    position: sticky;
+}
+li ,a, .button{
+    font-family:"Kanit",monospace;
+    font-weight: bolder;
+    font-size: 3vmin;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+    position: sticky;
+}
+.links_nav li a:hover{
+    color:darkblue;
+    font-size:larger;
+}
+.button a{
+    background: black;
+    padding: 7px 8px;
+    border-radius: 2vmax;
+    color:azure;
+}
+.links_nav li.button a:hover{
+    color: white;
+}
+
+
+header{
+    
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.heading h1 {
+    font-family:"Passion One",monospace;
+    font-size: 5vmax;
+    font-weight: bolder;
+    color: darkblue;
+    text-shadow: 1px 1px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+.heading h2{
+    font-size: 3vmax;
+    font-weight: 300;
+    font-family:"Permanent Marker",monospace;
+    word-spacing: 1em;
+    color: black;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.logo{
+    width:6vmax;
+} 
+
+.menubutton{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+section{
+    margin: 25px auto;
+    }
+    .events h1{
+        text-align:center;
+        font-size: 3.5vmax;
+        font-family:"Passion One",monospace;
+        color: rgb(112, 57, 42);
+        padding-bottom: 17px;
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .column img{
+        padding-left :100px;
+    }
+    .column{
+    width:500px;
+    height:450px;
+    margin: 8px;
+    border-radius: 15px;
+    background-color: bisque;
+    }
+    .events img{
+     display: flex;
+     flex-direction: row;
+
+    }
+    .events h4{
+        text-align: center; 
+        font-size: 4vmin;
+        color: blue;
+        font-family: "Passion One",monospace;
+        height: 70px;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 6vmin;
+        margin: 20px auto;
+    }
+    .events p{
+        padding: 0px 40px;
+        padding-bottom: 10px;
+        font-size: 3vmin;
+        font-family:"Helvetica Neue", Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+.aboutus{
+  
+    height: 100vh;
+    display: flex;
+}
+.abouut{
+   width: 100%;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.abouut h1{
+    font-size: 7vmin;
+    font-family: "Passion One",monospace;
+    color: rgb(112, 57, 42);
+    text-align: center;
+    margin: 20px;
+}
+.abouut p{
+    word-spacing: 0.02em;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 1.5em;
+    font-size: 2.7vmin;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3vmin;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.start1{
+    width:230px;
+    height:300px;
+    margin: 8px;
+    background-color:aqua;
+    border-radius: 15px;
+}
+.startup h4{
+    text-align: center; 
+    font-size: 4vmin;
+    color: black;
+    font-family: "Passion One",monospace;
+    height: 70px;
+    background: whitesmoke;
+    padding-top: 20px;
+}
+.startup h1{
+    text-align:center;
+    font-size: 3vmax;
+    font-family:"Passion One",monospace;
+    color: rgb(112, 57, 42);
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    
+}
+.start1:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    transition: all is ease;
+}
+.startup .start .start1 p{
+    font-size: 3vmin;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+.blogs h1{
+    text-align:center;
+    font-size: 3vmax;
+    font-family:"Passion One",monospace;
+    color: rgb(112, 57, 42);
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+.blogging{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.blogs h4{
+    text-align: center; 
+    font-size: 4vmin;
+    color: black;
+    font-family: "Passion One",monospace;
+    height: 70px;
+    background: whitesmoke;
+    padding-top: 20px;
+}
+.blog1{
+    width:90vw;
+    height:300px;
+    margin: 8px;
+    background-color:aqua;
+    border-radius: 15px;
+}
+.blogs p{
+    font-size: 3vmin;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    background: wheat;
+}
+.foot{
+    font-weight: bolder;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2vmin;
+}
+    
+@media only screen and (max-width:850px)
+{
+    .menubutton{
+        display: block;
+    }
+     .topp{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 20px;
+        left:20px;
+        width:50px;
+    }
+    
+    .links_nav{
+        width: 100vw;
+        background: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+    .links_nav li{
+        margin: 30px auto;
+        padding: 0;
+    }
+    .links_nav li a{
+        padding-top: 0px;
+    }
+    }
